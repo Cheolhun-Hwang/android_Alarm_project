@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_300"
+    tools:context=".AddActivity">
+    <TimePicker
+        android:id="@+id/add_start_time"
+        android:timePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/red_600"
+        android:text="~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TimePicker
+        android:id="@+id/add_end_time"
+        android:timePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/add_alarm_btn"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/purple_300"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="추가하기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
